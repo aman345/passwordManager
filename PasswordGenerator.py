@@ -10,7 +10,7 @@ def generateStrongPassword(length):
     password = ""
     for x in range(0,length):
         password+=random.choice(random.choice(superContainer))
-    print(password)
+   
     return password
 
   
